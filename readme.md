@@ -21,3 +21,12 @@ The project is executed step-by-step with configuration files, screenshots, and 
 
 All configuration evidence is provided under:
 `Screenshots/Phase-1-VirtualBox/`
+
+## Phase 2 – Firewall Rule Configuration
+
+- Accessed Mikrotik CHR using Winbox via MAC address
+- Configured firewall rule to block TCP 443 traffic to destination 1.1.1.1
+- Verified rule placement and action
+
+Screenshot:
+`Screenshots/Phase-2-Firewall/Firewall.png`
