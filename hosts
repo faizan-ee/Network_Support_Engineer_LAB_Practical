@@ -1,0 +1,2 @@
+[mikrotik]
+192.168.18.132 ansible_user=admin ansible_password='Admin@321' ansible_connection=network_cli ansible_network_os=community.routeros.routeros

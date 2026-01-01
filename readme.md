@@ -1,4 +1,4 @@
-#Network Support Engineer LAB Practical:
+# Network Support Engineer LAB Practical:
 
 ## Mikrotik CHR Firewall & RADIUS Lab
 
@@ -30,3 +30,23 @@ All configuration evidence is provided under:
 
 Screenshot:
 `Screenshots/Phase-2-Firewall/Firewall.png`
+
+## Phase 3 – RADIUS Configuration Using Ansible
+
+- Installed and configured Ansible on Ubuntu 24.04 using WSL
+- Integrated WSL with VS Code for playbook development
+- Created an Ansible inventory file (`hosts`) with Mikrotik CHR connection parameters
+- Developed an Ansible playbook (`RADIUS.yml`) to configure a RADIUS client on Mikrotik CHR
+- Successfully executed the playbook and validated task execution
+
+Screenshot of Ansible execution:
+`Screenshots/Phase-3-Ansible/Ansible.png`
+
+## Phase 4 – RADIUS Verification via Winbox
+
+- Verified RADIUS client configuration through Winbox
+- Confirmed RADIUS server address, secret, and hotspot service association
+- Ensured configuration applied as intended by Ansible automation
+
+Verification screenshot:
+`Screenshots/Phase-4-RADIUS/RADIUS.png`
